@@ -1,0 +1,60 @@
+*{
+font-family: system-ui;
+
+
+
+}
+.hed {
+
+    margin: auto;
+width: 60%;
+padding: 10%;
+display: flex;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(74, 74, 248);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  } 
+  .cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  .card{
+  background-color:rgb(255, 255, 255) ;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 30%) ;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 2px;
+  }
+.card:hover{
+transform: scale(1.1);
+transition: 0.7s ease;
+
+
+ }
+
+.iii{
+width: 350px;
+  }
+
+
+  .infi{
+
+text-align: center;
+
+  }
+  .infi h3{ 
+ color:rgb(74, 74, 248) ;
+ font-size:1.2em ;
+font-weight: 700;
+margin: 10px;
+  }
